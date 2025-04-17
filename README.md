@@ -26,6 +26,6 @@ php artisan migrate
 php artisan db:seed --class=AdminSeeder
 ```
 
-**Note**: Configure ingress, app url, and database accordingly, and mount persistent storage to both `app` and `nginx` deployments at `/var/www` .
+**Note**: Configure ingress, app url, and database accordingly, and mount persistent storage to both `app` and `nginx` deployments at `/var/www` , and set the `APP_URL` and `FORCE_HTTPS` environment variables accordingly.
 
 
